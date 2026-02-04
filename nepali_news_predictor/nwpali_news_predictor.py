@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib 
-st.header("🔥 NEPALI NEWS CATEGORY PREDICTOR 🔥")
+st.header("🔥 NEPALI NEWS CATEGORY PREDICTOR cd🔥")
 input_text = st.text_area("Enter the news you want to predict")
 
 model = joblib.load("nepali_news_category_predictor.joblib")
